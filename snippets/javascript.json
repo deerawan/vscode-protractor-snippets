@@ -167,7 +167,7 @@
     "description": "Protractor browser.getCurrentUrl()"
   },
   "browserSetLocation": {
-    "prefix": "bgsl",
+    "prefix": "bsl",
     "body": "browser.setLocation($1);",
     "description": "Protractor browser.setLocation()"
   },

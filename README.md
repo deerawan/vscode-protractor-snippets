@@ -1,4 +1,4 @@
-# Visual Studio Code Protractor Snippets
+# Visual Studio Code Snippets for Protractor
 This package is for Protractor 2.
 
 ## Installation
@@ -9,8 +9,63 @@ Below is a list of all snippets and the triggers.
 
 *The ⇥ means the TAB key.*
 
-### Specs
-| Trigger  | Description |
-| -------  | ----------- |
-| `elbi→`  | by.id |
+### Browser
+| Trigger     | Description |
+| -------     | ----------- |
+| `bg→`       | browser.get |
+| `bp→`       | browser.pause |
+| `bgcurl→`   | browser.getCurrentUrl |
+| `bsl→`      | browser.setLocation |
 
+### Element
+| Trigger     | Description |
+| -------     | ----------- |
+| `ebbin→`    | element by.binding |
+| `eabin→`    | element.all by.binding |
+| `ebxbin→`   | element by.exactBinding |
+| `eaxbin→`   | element.all by.exactBinding |
+| `ebmod→`    | element by.model |
+| `eamod→`    | element.all by.model |
+| `ebbtn→`    | element by.buttonText |
+| `eabtn→`    | element.all by.buttonText |
+| `ebpbtn→`   | element by.partialButtonText |
+| `eapbtn→`   | element.all by.partialButtonText |
+| `ebrep→`    | element by.repeater |
+| `earep→`    | element.all by.repeater |
+| `ebrep→`    | element by.exactRepeater |
+| `earep→`    | element.all by.exactRepeater |
+| `ebcsstxt→` | element by.cssContainingText |
+| `eacsstxt→` | element.all by.cssContainingText |
+| `ebopt→`    | element by.option |
+| `eaopt→`    | element.all by.option |
+| `ebdcss→`   | element by.deepCss |
+| `eadcss→`   | element.all by.deepCss |
+| `ebclass→`  | element by.class |
+| `eaclass→`  | element.all by.class |
+| `ebcss→`    | element by.css |
+| `eacss→`    | element.all by.css |
+| `ebid→`     | element by.id |
+| `eaid→`     | element.all by.id |
+| `eblink→`   | element by.linkText |
+| `ealink→`   | element.all by.linkText |
+| `ebplink→`  | element by.partialLinkText |
+| `eaplink→`  | element.all by.partialLinkText |
+| `ebjs→`     | element by.js |
+| `eajs→`     | element.all by.js |
+| `ebname→`   | element by.name |
+| `eaname→`   | element.all by.name |
+| `ebtag→`    | element by.tagName |
+| `eatag→`    | element.all by.tagName |
+| `ebxp→`     | element by.xpath |
+| `eaxp→`     | element.all by.xpath |
+
+### Page Object
+| Trigger     | Description |
+| -------     | ----------- |
+| `poset→`    | function to set element using sendKeys() |
+| `poget→`    | function to get element using getText() |
+| `pogetval→` | function to get element using getAttribute('val') |
+| `poclick→`  | function to click element using click() |
+
+## License
+[MIT License](http://opensource.org/licenses/MIT)
