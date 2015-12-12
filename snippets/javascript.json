@@ -3,76 +3,152 @@
     "prefix": "ebbin",
     "body": "element(by.binding($1));"
   },
+  "elementAllByBinding": {
+    "prefix": "eabin",
+    "body": "element.all(by.binding($1));"
+  },
   "elementByExactBinding": {
     "prefix": "ebexbin",
     "body": "element(by.exactBinding($1));"
+  },
+  "elementAllByExactBinding": {
+    "prefix": "eaexbin",
+    "body": "element.all(by.exactBinding($1));"
   },
   "elementByModel": {
     "prefix": "ebmod",
     "body": "element(by.model($1));"
   },
+  "elementAllByModel": {
+    "prefix": "eamod",
+    "body": "element.all(by.model($1));"
+  },
   "elementByButtonText": {
     "prefix": "ebbtn",
     "body": "element(by.buttonText($1));"
+  },
+  "elementAllByButtonText": {
+    "prefix": "eabtn",
+    "body": "element.all(by.buttonText($1));"
   },
   "elementByPartialButtonText": {
     "prefix": "ebpbtn",
     "body": "element(by.partialButtonText($1));"
   },
+  "elementAllByPartialButtonText": {
+    "prefix": "eapbtn",
+    "body": "element.all(by.partialButtonText($1));"
+  },
   "elementByRepeater": {
     "prefix": "ebrep",
     "body": "element(by.repeater($1));"
+  },
+  "elementAllByRepeater": {
+    "prefix": "earep",
+    "body": "element.all(by.repeater($1));"
   },
   "elementByExactRepeater": {
     "prefix": "ebexrep",
     "body": "element(by.exactRepeater($1));"
   },
+  "elementAllByExactRepeater": {
+    "prefix": "eaexrep",
+    "body": "element.all(by.exactRepeater($1));"
+  },
   "elementByCssContainingText": {
     "prefix": "ebcsstxt",
     "body": "element(by.cssContainingText($1));"
+  },
+  "elementAllByCssContainingText": {
+    "prefix": "eacsstxt",
+    "body": "element.all(by.cssContainingText($1));"
   },
   "elementByOptions": {
     "prefix": "ebopt",
     "body": "element(by.options($1));"
   },
+  "elementAllByOptions": {
+    "prefix": "eaopt",
+    "body": "element.all(by.options($1));"
+  },
   "elementByDeepCss": {
     "prefix": "ebdcss",
     "body": "element(by.deepCss($1));"
+  },
+  "elementAllByDeepCss": {
+    "prefix": "eadcss",
+    "body": "element.all(by.deepCss($1));"
   },
   "elementByClassName": {
     "prefix": "ebclass",
     "body": "element(by.class($1));"
   },
+  "elementAllByClassName": {
+    "prefix": "eaclass",
+    "body": "element.all(by.class($1));"
+  },
   "elementByCss": {
     "prefix": "ebcss",
     "body": "element(by.class($1));"
+  },
+  "elementAllByCss": {
+    "prefix": "eacss",
+    "body": "element.all(by.class($1));"
   },
   "elementById": {
     "prefix": "ebid",
     "body": "element(by.id($1));"
   },
+  "elementAllById": {
+    "prefix": "eaid",
+    "body": "element.all(by.id($1));"
+  },
   "elementByLinkText": {
     "prefix": "eblink",
     "body": "element(by.linkText($1));"
+  },
+  "elementAlByLinkText": {
+    "prefix": "ealink",
+    "body": "element.all(by.linkText($1));"
   },
   "elementByPartialLinkText": {
     "prefix": "ebplink",
     "body": "element(by.partialLinkText($1));"
   },
+  "elementAllByPartialLinkText": {
+    "prefix": "eaplink",
+    "body": "element.all(by.partialLinkText($1));"
+  },
   "elementByJs": {
     "prefix": "ebjs",
     "body": "element(by.js($1));"
+  },
+  "elementAllByJs": {
+    "prefix": "eajs",
+    "body": "element.all(by.js($1));"
   },
   "elementByName": {
     "prefix": "ebname",
     "body": "element(by.name($1));"
   },
+  "elementAllByName": {
+    "prefix": "eaname",
+    "body": "element.all(by.name($1));"
+  },
   "elementByTagName": {
     "prefix": "ebtag",
     "body": "element(by.tagName($1));"
   },
+  "elementAllByTagName": {
+    "prefix": "eatag",
+    "body": "element.all(by.tagName($1));"
+  },
   "elementByXpath": {
     "prefix": "ebx",
+    "body": "element(by.xpath($1));"
+  },
+  "elementAllByXpath": {
+    "prefix": "eax",
     "body": "element(by.xpath($1));"
   }
 }
