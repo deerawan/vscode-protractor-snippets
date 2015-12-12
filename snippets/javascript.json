@@ -8,11 +8,11 @@
     "body": "element.all(by.binding($1));"
   },
   "elementByExactBinding": {
-    "prefix": "ebexbin",
+    "prefix": "ebxbin",
     "body": "element(by.exactBinding($1));"
   },
   "elementAllByExactBinding": {
-    "prefix": "eaexbin",
+    "prefix": "eaxbin",
     "body": "element.all(by.exactBinding($1));"
   },
   "elementByModel": {
@@ -48,11 +48,11 @@
     "body": "element.all(by.repeater($1));"
   },
   "elementByExactRepeater": {
-    "prefix": "ebexrep",
+    "prefix": "ebxrep",
     "body": "element(by.exactRepeater($1));"
   },
   "elementAllByExactRepeater": {
-    "prefix": "eaexrep",
+    "prefix": "eaxrep",
     "body": "element.all(by.exactRepeater($1));"
   },
   "elementByCssContainingText": {
@@ -89,11 +89,11 @@
   },
   "elementByCss": {
     "prefix": "ebcss",
-    "body": "element(by.class($1));"
+    "body": "element(by.css($1));"
   },
   "elementAllByCss": {
     "prefix": "eacss",
-    "body": "element.all(by.class($1));"
+    "body": "element.all(by.css($1));"
   },
   "elementById": {
     "prefix": "ebid",
@@ -144,11 +144,26 @@
     "body": "element.all(by.tagName($1));"
   },
   "elementByXpath": {
-    "prefix": "ebx",
+    "prefix": "ebxp",
     "body": "element(by.xpath($1));"
   },
   "elementAllByXpath": {
-    "prefix": "eax",
-    "body": "element(by.xpath($1));"
+    "prefix": "eaxp",
+    "body": "element.all(by.xpath($1));"
+  },
+  "poset": {
+    "prefix": "poset",
+    "body": "this.set${1:Element} = function(${2:value}) {\n\t${3:element}.sendKeys(${2:value});\n};",
+    "description": "Protractor page object set element using sendKeys()"
+  },
+  "pogettxt": {
+    "prefix": "pogettxt",
+    "body": "this.get${1:Element} = function() {\n\treturn ${2:element}.getText();\n};",
+    "description": "Protractor page object get element text using getText()"
+  },
+  "pogetval": {
+    "prefix": "pogetval",
+    "body": "this.get${1:Element} = function() {\n\treturn ${2:element}.getAttribute('value');\n};",
+    "description": "Protractor page object get element value using getAttribute('value')"
   }
 }
