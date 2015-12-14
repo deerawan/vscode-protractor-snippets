@@ -57,11 +57,11 @@
   },
   "elementByCssContainingText": {
     "prefix": "ebcsstxt",
-    "body": "element(by.cssContainingText('$1'));"
+    "body": "element(by.cssContainingText('${1:css}', '${2:text}'));"
   },
   "elementAllByCssContainingText": {
     "prefix": "eacsstxt",
-    "body": "element.all(by.cssContainingText('$1'));"
+    "body": "element.all(by.cssContainingText('${1:css}', '${2:text}'));"
   },
   "elementByOptions": {
     "prefix": "ebopt",
