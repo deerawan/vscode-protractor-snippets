@@ -171,6 +171,16 @@
     "body": "browser.setLocation('$1');",
     "description": "Protractor browser.setLocation()"
   },
+  "browserWait": {
+    "prefix": "bw",
+    "body": "browser.wait($1);",
+    "description": "Protractor browser.wait()"
+  },
+  "browserWaitForAngular": {
+    "prefix": "bwa",
+    "body": "browser.waitForAngular();",
+    "description": "Protractor browser.waitForAngular()"
+  },
   "poset": {
     "prefix": "poset",
     "body": "this.set${1:Element} = function(${2:value}) {\n\t${3:element}.clear().sendKeys(${2:value});\n};",

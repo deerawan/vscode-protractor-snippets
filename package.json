@@ -1,7 +1,7 @@
 {
   "name": "vscode-protractor-snippets",
   "publisher": "deerawan",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "Protractor ES5 Snippets",
   "description": "Visual Studio Code Protractor Snippets",
   "icon": "images/protractor.png",

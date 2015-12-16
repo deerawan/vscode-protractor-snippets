@@ -16,6 +16,8 @@ Below is a list of all snippets and the triggers.
 | `bp→`       | browser.pause |
 | `bgcurl→`   | browser.getCurrentUrl |
 | `bsl→`      | browser.setLocation |
+| `bw→`       | browser.wait |
+| `bwa→`      | browser.waitForAngular |
 
 ### Element
 | Trigger     | Description |
