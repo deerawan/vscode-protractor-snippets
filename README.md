@@ -34,8 +34,8 @@ Below is a list of all snippets and the triggers.
 | `eapbtn→`   | element.all by.partialButtonText |
 | `ebrep→`    | element by.repeater |
 | `earep→`    | element.all by.repeater |
-| `ebxrep→`    | element by.exactRepeater |
-| `eaxrep→`    | element.all by.exactRepeater |
+| `ebxrep→`   | element by.exactRepeater |
+| `eaxrep→`   | element.all by.exactRepeater |
 | `ebcsstxt→` | element by.cssContainingText |
 | `eacsstxt→` | element.all by.cssContainingText |
 | `ebopt→`    | element by.option |
