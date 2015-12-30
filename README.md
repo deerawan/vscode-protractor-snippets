@@ -1,7 +1,7 @@
 # Visual Studio Code Snippets for Protractor
 Protractor snippets for Javascript and Typescript
 
-![vscode protractor](https://github.com/deerawan/vscode-protractor-snippets/blob/master/images/protractor.gif)
+![vscode protractor](https://raw.githubusercontent.com/deerawan/vscode-protractor-snippets/master/images/protractor.gif)
 
 ## Installation
 Type `cmd-shift-p`/`ctrl-shift-p` to launch command palette and choose `Extensions: Install Extension`. Search this package and install.
