@@ -1,9 +1,9 @@
 {
   "name": "vscode-protractor-snippets",
   "publisher": "deerawan",
-  "version": "1.0.2",
-  "displayName": "Protractor ES5 Snippets",
-  "description": "Visual Studio Code Protractor Snippets",
+  "version": "1.0.3",
+  "displayName": "Protractor Snippets",
+  "description": "Protractor Snippets for Javascript(ES5) and Typescript",
   "icon": "images/protractor.png",
   "license": "MIT",
   "repository": {
@@ -18,7 +18,11 @@
     "snippets": [
       {
         "language": "javascript",
-		    "path": "./snippets/javascript.json"
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
       }
     ]
   }
