@@ -182,9 +182,14 @@
     "description": "Protractor browser.waitForAngular()"
   },
   "browserAddMockModule": {
-    "prefix": "bam",
+    "prefix": "bamock",
     "body": "browser.addMockModule('${modName}', function() {\n\tangular.module(${modName}, []).${value}('${1}', ${2});\n});",
     "description": "Protractor browser.addMockModule"
+  },
+  "browserClearMockModules": {
+    "prefix": "bcmock",
+    "body": "browser.clearMockModules();",
+    "description": "Protractor browser.clearMockModules"
   },
   "poset": {
     "prefix": "poset",
