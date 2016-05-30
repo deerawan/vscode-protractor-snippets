@@ -183,7 +183,7 @@
   },
   "browserAddMockModule": {
     "prefix": "bam",
-    "body": "browser.addMockModule('${1:modName}', function() {\n\tangular.module(${2:modName}, []).value('', '');\n});",
+    "body": "browser.addMockModule('${modName}', function() {\n\tangular.module(${modName}, []).${value}('${1}', ${2});\n});",
     "description": "Protractor browser.addMockModule"
   },
   "poset": {

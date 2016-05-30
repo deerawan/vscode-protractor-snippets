@@ -181,6 +181,11 @@
     "body": "browser.waitForAngular();",
     "description": "Protractor browser.waitForAngular()"
   },
+  "browserAddMockModule": {
+    "prefix": "bam",
+    "body": "browser.addMockModule('${modName}', () => {\n\tangular.module(${modName}, []).${value}('${1}', ${2});\n});",
+    "description": "Protractor browser.addMockModule"
+  },
   "poset": {
     "prefix": "poset",
     "body": "this.set${1:Element} = (${2:value}) => {\n\t${3:element}.clear().sendKeys(${2:value});\n};",
