@@ -20,8 +20,10 @@ Below is a list of all snippets and the triggers.
 | `bsl→`      | browser.setLocation |
 | `bw→`       | browser.wait |
 | `bwa→`      | browser.waitForAngular |
+| `bamock→`   | browser.addMockModule |
+| `bcmock→`   | browser.clearMockModule |
 
-### Element
+### Element Locators
 | Trigger     | Description |
 | -------     | ----------- |
 | `ebbin→`    | element by.binding |
