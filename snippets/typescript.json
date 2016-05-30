@@ -154,32 +154,32 @@
   "browserGet": {
     "prefix": "bg",
     "body": "browser.get('$1');",
-    "description": "Protractor browser.get()"
+    "description": "Protractor browser.get"
   },
   "browserPause": {
     "prefix": "bp",
     "body": "browser.pause();",
-    "description": "Protractor browser.pause()"
+    "description": "Protractor browser.pause"
   },
   "browserGetCurrentUrl": {
     "prefix": "bgcurl",
     "body": "browser.getCurrentUrl();",
-    "description": "Protractor browser.getCurrentUrl()"
+    "description": "Protractor browser.getCurrentUrl"
   },
   "browserSetLocation": {
     "prefix": "bsl",
     "body": "browser.setLocation('$1');",
-    "description": "Protractor browser.setLocation()"
+    "description": "Protractor browser.setLocation"
   },
   "browserWait": {
     "prefix": "bw",
     "body": "browser.wait($1);",
-    "description": "Protractor browser.wait()"
+    "description": "Protractor browser.wait"
   },
   "browserWaitForAngular": {
     "prefix": "bwa",
     "body": "browser.waitForAngular();",
-    "description": "Protractor browser.waitForAngular()"
+    "description": "Protractor browser.waitForAngular"
   },
   "browserAddMockModule": {
     "prefix": "bamock",
