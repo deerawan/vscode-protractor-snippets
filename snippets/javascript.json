@@ -159,6 +159,14 @@
     "prefix": "eclk",
     "body": "element.click();"
   },
+  "elementGetAttribute": {
+    "prefix": "ega",
+    "body": "element.getAttribute();"
+  },
+  "elementGetText": {
+    "prefix": "egt",
+    "body": "element.getText();"
+  },
   "browserGet": {
     "prefix": "bg",
     "body": "browser.get('$1');",
