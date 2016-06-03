@@ -157,19 +157,23 @@
   },
   "elementClick": {
     "prefix": "eclk",
-    "body": "element.click();"
+    "body": "element.click();",
+    "description": "Protractor element.click"
   },
   "elementGetAttribute": {
     "prefix": "ega",
-    "body": "element.getAttribute();"
+    "body": "element.getAttribute();",
+    "description": "Protractor element.getAttribute"
   },
   "elementGetText": {
     "prefix": "egt",
-    "body": "element.getText();"
+    "body": "element.getText();",
+    "description": "Protractor element.getText"
   },
   "elementSendKeys": {
     "prefix": "esk",
-    "body": "element.sendKeys('$1');"
+    "body": "element.sendKeys('$1');",
+    "description": "Protractor element.sendKeys"
   },
   "browserGet": {
     "prefix": "bg",
