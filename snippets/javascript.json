@@ -151,6 +151,14 @@
     "prefix": "eaxp",
     "body": "element.all(by.xpath('$1'));"
   },
+  "elementClear": {
+    "prefix": "eclr",
+    "body": "element.clear();"
+  },
+  "elementClick": {
+    "prefix": "eclk",
+    "body": "element.click();"
+  },
   "browserGet": {
     "prefix": "bg",
     "body": "browser.get('$1');",
