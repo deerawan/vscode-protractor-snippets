@@ -65,6 +65,15 @@ Below is a list of all snippets and the triggers.
 | `ebxp→`     | element by.xpath |
 | `eaxp→`     | element.all by.xpath |
 
+### Element Locators
+| Trigger     | Description |
+| -------     | ----------- |
+| `eclr`      | element.clear |
+| `eclk`      | element.click |
+| `ega`       | element.getAttribute |
+| `egt`       | element.getText |
+| `esk`       | element.sendKeys |
+
 ### Page Object
 | Trigger     | Description |
 | -------     | ----------- |

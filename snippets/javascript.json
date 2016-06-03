@@ -167,6 +167,10 @@
     "prefix": "egt",
     "body": "element.getText();"
   },
+  "elementSendKeys": {
+    "prefix": "esk",
+    "body": "element.sendKeys('$1');"
+  },
   "browserGet": {
     "prefix": "bg",
     "body": "browser.get('$1');",
