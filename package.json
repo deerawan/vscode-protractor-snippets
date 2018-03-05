@@ -1,7 +1,7 @@
 {
   "name": "vscode-protractor-snippets",
   "publisher": "deerawan",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "Protractor Snippets",
   "description": "Protractor Snippets for Javascript(ES5) and Typescript",
   "icon": "images/protractor.png",
@@ -13,7 +13,9 @@
   "engines": {
     "vscode": "0.10.x"
   },
-  "categories": ["Snippets"],
+  "categories": [
+    "Snippets"
+  ],
   "contributes": {
     "snippets": [
       {

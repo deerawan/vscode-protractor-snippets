@@ -46,8 +46,8 @@ Below is a list of all snippets and the triggers.
 | `eaopt→`    | element.all by.option |
 | `ebdcss→`   | element by.deepCss |
 | `eadcss→`   | element.all by.deepCss |
-| `ebclass→`  | element by.class |
-| `eaclass→`  | element.all by.class |
+| `ebclass→`  | element by.className |
+| `eaclass→`  | element.all by.className |
 | `ebcss→`    | element by.css |
 | `eacss→`    | element.all by.css |
 | `ebid→`     | element by.id |

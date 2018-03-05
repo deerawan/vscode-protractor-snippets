@@ -81,11 +81,11 @@
   },
   "elementByClassName": {
     "prefix": "ebclass",
-    "body": "element(by.class('$1'));"
+    "body": "element(by.className('$1'));"
   },
   "elementAllByClassName": {
     "prefix": "eaclass",
-    "body": "element.all(by.class('$1'));"
+    "body": "element.all(by.className('$1'));"
   },
   "elementByCss": {
     "prefix": "ebcss",
